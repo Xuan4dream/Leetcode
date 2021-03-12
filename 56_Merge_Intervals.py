@@ -10,9 +10,6 @@ class Solution(object):
         :type intervals: List[List[int]]
         :rtype: List[List[int]]
         """
-        n = len(intervals)
-        if n <= 1:
-            return intervals
         
         intervals.sort()   # inplace sort
         output = [intervals[0]]
