@@ -26,8 +26,9 @@ class Solution(object):
                 overlap = [point[0], min(overlap[1], point[1])]
         
         return count
-    ## Time: O(nlogn)
-    ## Space: O(1)
+    ## Time: O(NlogN)
+    ## Space: O(N) 
+    ## the list.sort() function in Python is implemented with the Timsort algorithm whose space complexity is O(N).
         
 #         # FIRST TRY 03172021
 #         n = len(points)
