@@ -18,7 +18,7 @@ class Solution(object):
          
 #         # 04032021 FIRST TRY
 #         d = {}
-#         majority_count = len(nums)/2
+#         majority_count = len(nums)//2
         
 #         for num in nums:
 #             if num in d:
